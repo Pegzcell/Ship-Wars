@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+body {
+  margin: 0;
+  color:white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor:auto;
+}
+
+#sp{
+    height: 100vh;
+    width: 100vw;
+}
+
+#results,
+#instructions {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+#results .content,
+#instructions .content {
+  max-width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+#hud {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  top: 20px;
+  left: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
